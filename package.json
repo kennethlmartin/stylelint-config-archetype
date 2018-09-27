@@ -1,0 +1,21 @@
+{
+  "name": "stylelint-config-archetype",
+  "version": "1.0.0",
+  "author": "kennethlmartin",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kennethlmartin/stylelint-config-archetype.git"
+  },
+  "scripts": {
+    "test:lint": "eslint .",
+    "test:lint:fix": "eslint . --fix"
+  },
+  "devDependencies": {
+    "eslint-config-archetype": "https://github.com/kennethlmartin/eslint-config-archetype#v1.1.1"
+  },
+  "dependencies": {
+    "stylelint": "9.6.0",
+    "stylelint-order": "1.0.0"
+  }
+}
