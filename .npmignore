@@ -1,0 +1,9 @@
+# https://docs.npmjs.com/misc/developers#keeping-files-out-of-your-package
+
+*.md
+.*cache
+.editorconfig
+.eslintignore
+.eslintrc.js
+.gitignore
+node_modules/
