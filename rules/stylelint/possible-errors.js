@@ -10,7 +10,7 @@ module.exports = {
     // Disallow unknown at-rules.
     // https://stylelint.io/user-guide/rules/at-rule-no-unknown
     'at-rule-no-unknown': [true, {
-      ignoreAtRules: ['extend'],
+      'ignoreAtRules': ['extend'],
     }],
 
     // Disallow empty blocks.
@@ -28,7 +28,7 @@ module.exports = {
     // Disallow duplicate properties within declaration blocks.
     // https://stylelint.io/user-guide/rules/declaration-block-no-duplicate-properties
     'declaration-block-no-duplicate-properties': [true, {
-      ignore: ['consecutive-duplicates-with-different-values'],
+      'ignore': ['consecutive-duplicates-with-different-values'],
     }],
 
     // Disallow shorthand properties that override related longhand properties within declaration blocks.
@@ -102,7 +102,7 @@ module.exports = {
     // Disallow redundant values in shorthand properties.
     // https://stylelint.io/user-guide/rules/shorthand-property-no-redundant-values
     'shorthand-property-no-redundant-values': true,
-    
+
     // Disallow (unescaped) newlines in strings.
     // https://stylelint.io/user-guide/rules/string-no-newline
     'string-no-newline': true,
