@@ -1,12 +1,25 @@
 {
   "name": "stylelint-config-archetype",
   "version": "1.0.0",
-  "author": "kennethlmartin",
+  "author": "Kenneth Martin <kennethlmartin@gmail.com>",
+  "description": "CSS has standards",
+  "license": "MIT",
   "main": "index.js",
+  "homepage": "https://github.com/kennethlmartin/stylelint-config-archetype",
   "repository": {
     "type": "git",
     "url": "https://github.com/kennethlmartin/stylelint-config-archetype.git"
   },
+  "bugs": {
+    "url": "https://github.com/kennethlmartin/eslint-config-archetype/issues"
+  },
+  "keywords": [
+    "stylelint",
+    "config",
+    "stylelintconfig",
+    "css",
+    "styleguide"
+  ],
   "scripts": {
     "test:lint": "eslint .",
     "test:lint:fix": "eslint . --fix"
