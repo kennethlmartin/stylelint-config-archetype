@@ -4,17 +4,16 @@
  */
 
 module.exports = {
-  extends: [
-    'archetype/configurations/node'
+  'env': {
+    'node': true,
+  },
+  'extends': [
+    'archetype/rules/eslint/best-practices.js',
+    'archetype/rules/eslint/errors.js',
+    'archetype/rules/eslint/style.js',
+    'archetype/rules/eslint/variables.js',
   ],
   'rules': {
-    // Enforce or disallow capitalization of the first letter of a comment
-    // http://eslint.org/docs/rules/capitalized-comments
-    'capitalized-comments': ['error', 'always', {
-      'ignoreConsecutiveComments': true,
-      'ignoreInlineComments': true,
-    }],
-
     // Require quotes around object literal property names
     // http://eslint.org/docs/rules/quote-props
     'quote-props': ['error', 'always'],
