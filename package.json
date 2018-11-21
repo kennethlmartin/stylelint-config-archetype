@@ -25,10 +25,10 @@
     "test:lint:fix": "eslint . --fix"
   },
   "devDependencies": {
-    "eslint-config-archetype": "https://github.com/kennethlmartin/eslint-config-archetype#v1.1.1"
+    "eslint-config-archetype": "3.0.0"
   },
   "dependencies": {
-    "stylelint": "9.7.1",
-    "stylelint-order": "1.0.0"
+    "stylelint": "9.8.0",
+    "stylelint-order": "2.0.0"
   }
 }
