@@ -63,7 +63,7 @@ module.exports = {
 
     // Require a newline or disallow whitespace before the opening brace of blocks.
     // https://stylelint.io/user-guide/rules/block-opening-brace-newline-before
-    // 'block-opening-brace-newline-before': '',
+    'block-opening-brace-newline-before': null,
 
     // Require a single space or disallow whitespace after the opening brace of blocks.
     // https://stylelint.io/user-guide/rules/block-opening-brace-space-after
@@ -153,17 +153,13 @@ module.exports = {
     // https://stylelint.io/user-guide/rules/font-family-name-quotes
     'font-family-name-quotes': 'always-where-recommended',
 
-    // Require numeric or named (where possible) font-weight values.
-    // https://stylelint.io/user-guide/rules/font-weight-notation
-    'font-weight-notation': 'named-where-possible',
-
     // Require a newline or disallow whitespace after the commas of functions.
     // https://stylelint.io/user-guide/rules/function-comma-newline-after
     'function-comma-newline-after': 'always-multi-line',
 
     // Require a newline or disallow whitespace before the commas of functions.
     // https://stylelint.io/user-guide/rules/function-comma-newline-before
-    // 'function-comma-newline-before': '',
+    'function-comma-newline-before': null,
 
     // Require a single space or disallow whitespace after the commas of functions.
     // https://stylelint.io/user-guide/rules/function-comma-space-after
@@ -201,9 +197,9 @@ module.exports = {
     // https://stylelint.io/user-guide/rules/indentation
     'indentation': 2,
 
-    // Disallow units for zero lengths.
-    // https://stylelint.io/user-guide/rules/length-zero-no-unit
-    'length-zero-no-unit': true,
+    // Specify unix or windows linebreaks (Autofixable).
+    // https://stylelint.io/user-guide/rules/linebreaks
+    'linebreaks': 'unix',
 
     // Limit the number of adjacent empty lines.
     // https://stylelint.io/user-guide/rules/max-empty-lines
@@ -211,7 +207,7 @@ module.exports = {
 
     // Limit the length of a line.
     // https://stylelint.io/user-guide/rules/max-line-length
-    // 'max-line-length': '',
+    'max-line-length': null,
 
     // Require a single space or disallow whitespace after the colon in media features.
     // https://stylelint.io/user-guide/rules/media-feature-colon-space-after
@@ -243,7 +239,7 @@ module.exports = {
 
     // Require a newline or disallow whitespace before the commas of media query lists.
     // https://stylelint.io/user-guide/rules/media-query-list-comma-newline-before
-    // 'media-query-list-comma-newline-before': '',
+    'media-query-list-comma-newline-before': null,
 
     // Require a single space or disallow whitespace after the commas of media query lists.
     // https://stylelint.io/user-guide/rules/media-query-list-comma-space-after
@@ -252,6 +248,10 @@ module.exports = {
     // Require a single space or disallow whitespace before the commas of media query lists.
     // https://stylelint.io/user-guide/rules/media-query-list-comma-space-befor
     'media-query-list-comma-space-before': 'never',
+
+    // Disallow empty first lines (Autofixable).
+    // https://stylelint.io/user-guide/rules/no-empty-first-line
+    'no-empty-first-line': null,
 
     // Disallow end-of-line whitespace.
     // https://stylelint.io/user-guide/rules/no-eol-whitespace
@@ -336,10 +336,6 @@ module.exports = {
     // https://stylelint.io/user-guide/rules/selector-pseudo-element-case
     'selector-pseudo-element-case': 'lower',
 
-    // Specify single or double colon notation for applicable pseudo-elements.
-    // https://stylelint.io/user-guide/rules/selector-pseudo-element-colon-notation
-    'selector-pseudo-element-colon-notation': 'single',
-
     // Specify lowercase or uppercase for type selector.
     // https://stylelint.io/user-guide/rules/selector-type-case
     'selector-type-case': 'lower',
@@ -347,6 +343,10 @@ module.exports = {
     // Specify single or double quotes around strings.
     // https://stylelint.io/user-guide/rules/string-quotes
     'string-quotes': 'double',
+
+    // Require or disallow Unicode BOM.
+    // https://stylelint.io/user-guide/rules/unicode-bom
+    'unicode-bom': 'never',
 
     // Specify lowercase or uppercase for units.
     // https://stylelint.io/user-guide/rules/unit-case

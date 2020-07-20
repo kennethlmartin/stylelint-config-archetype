@@ -1,8 +1,3 @@
-/**
- * @module .eslintrc
- * @see https://eslint.org/docs/user-guide/configuring
- */
-
 module.exports = {
   'env': {
     'node': true,
@@ -17,5 +12,5 @@ module.exports = {
     // Require quotes around object literal property names
     // http://eslint.org/docs/rules/quote-props
     'quote-props': ['error', 'always'],
-  }
+  },
 };

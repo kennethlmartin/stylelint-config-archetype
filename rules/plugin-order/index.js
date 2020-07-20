@@ -1,5 +1,10 @@
 'use strict';
 
+/**
+ * Plugin Order
+ * https://github.com/hudochenkov/stylelint-order
+ */
+
 module.exports = {
   'plugins': [
     'stylelint-order',

@@ -1,7 +1,7 @@
 {
   "name": "stylelint-config-archetype",
-  "version": "2.0.0",
-  "author": "Kenneth Martin <kennethlmartin@gmail.com>",
+  "version": "3.0.0",
+  "author": "Kenneth Martin <developer@kennethmartin.me>",
   "description": "CSS has standards",
   "license": "MIT",
   "main": "index.js",
@@ -25,10 +25,10 @@
     "test:lint:fix": "eslint . --fix"
   },
   "devDependencies": {
-    "eslint-config-archetype": "3.0.0"
+    "eslint-config-archetype": "4.0.0"
   },
   "dependencies": {
-    "stylelint": "9.8.0",
-    "stylelint-order": "2.0.0"
+    "stylelint": "13.6.1",
+    "stylelint-order": "4.1.0"
   }
 }

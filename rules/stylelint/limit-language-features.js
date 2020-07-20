@@ -7,6 +7,10 @@
 
 module.exports = {
   'rules': {
+    // Specify percentage or number notation for alpha-values (Autofixable).
+    // https://stylelint.io/user-guide/rules/alpha-value-notation
+    'alpha-value-notation': 'number',
+
     // Specify a blacklist of disallowed at-rules.
     // https://stylelint.io/user-guide/rules/at-rule-blacklist/
     'at-rule-blacklist': null,
@@ -15,9 +19,17 @@ module.exports = {
     // https://stylelint.io/user-guide/rules/at-rule-no-vendor-prefix/
     'at-rule-no-vendor-prefix': true,
 
+    // Specify a requirelist of properties for an at-rule.
+    // https://stylelint.io/user-guide/rules/at-rule-property-requirelist
+    'at-rule-property-requirelist': null,
+
     // Specify a whitelist of allowed at-rules.
     // https://stylelint.io/user-guide/rules/at-rule-whitelist/
     'at-rule-whitelist': null,
+
+    // Specify modern or legacy notation for applicable color-functions (Autofixable).
+    // https://stylelint.io/user-guide/rules/color-function-notation
+    'color-function-notation': 'legacy',
 
     // Require (where possible) or disallow named colors.
     // https://stylelint.io/user-guide/rules/color-named/
@@ -67,6 +79,10 @@ module.exports = {
     // https://stylelint.io/user-guide/rules/declaration-property-value-whitelist/
     'declaration-property-value-whitelist': null,
 
+    // Require numeric or named (where possible) font-weight values. Also, when named values are expected, require only valid names.
+    // https://stylelint.io/user-guide/rules/font-weight-notation
+    'font-weight-notation': 'named-where-possible',
+
     // Specify a blacklist of disallowed functions.
     // https://stylelint.io/user-guide/rules/function-blacklist/
     'function-blacklist': null,
@@ -87,9 +103,17 @@ module.exports = {
     // https://stylelint.io/user-guide/rules/function-whitelist/
     'function-whitelist': null,
 
+    // Specify number or angle notation for degree hues (Autofixable).
+    // https://stylelint.io/user-guide/rules/hue-degree-notation
+    'hue-degree-notation': 'angle',
+
     // Specify a pattern for keyframe names.
     // https://stylelint.io/user-guide/rules/keyframes-name-pattern/
     'keyframes-name-pattern': null,
+
+    // Disallow units for zero lengths (Autofixable).
+    // https://stylelint.io/user-guide/rules/length-zero-no-unit
+    'length-zero-no-unit': true,
 
     // Limit the depth of nesting.
     // https://stylelint.io/user-guide/rules/max-nesting-depth/
@@ -218,6 +242,10 @@ module.exports = {
     // Specify a blacklist of disallowed pseudo-element selectors.
     // https://stylelint.io/user-guide/rules/selector-pseudo-element-blacklist/
     'selector-pseudo-element-blacklist': null,
+
+    // Specify single or double colon notation for applicable pseudo-elements (Autofixable).
+    // https://stylelint.io/user-guide/rules/selector-pseudo-element-colon-notation
+    'selector-pseudo-element-colon-notation': 'double',
 
     // Specify a whitelist of allowed pseudo-element selectors.
     // https://stylelint.io/user-guide/rules/selector-pseudo-element-whitelist/

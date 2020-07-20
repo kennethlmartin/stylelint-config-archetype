@@ -40,8 +40,12 @@ module.exports = {
     'font-family-no-duplicate-names': true,
 
     // Disallow missing generic families in lists of font family names.
-    // https://stylelint.io/user-guide/rules/font-family-no-missing-generic-family-keyword/
+    // https://stylelint.io/user-guide/rules/font-family-no-missing-generic-family-keyword
     'font-family-no-missing-generic-family-keyword': true,
+
+    // Disallow an invalid expression within calc functions.
+    // https://stylelint.io/user-guide/rules/function-calc-no-invalid
+    'function-calc-no-invalid': true,
 
     // Disallow an unspaced operator within calc functions.
     // https://stylelint.io/user-guide/rules/function-calc-no-unspaced-operator
@@ -64,7 +68,7 @@ module.exports = {
     'no-descending-specificity': true,
 
     // Disallow duplicate @import rules within a stylesheet.
-    // https://stylelint.io/user-guide/rules/no-duplicate-at-import-rules/
+    // https://stylelint.io/user-guide/rules/no-duplicate-at-import-rules
     'no-duplicate-at-import-rules': true,
 
     // Disallow duplicate selectors.
@@ -84,7 +88,7 @@ module.exports = {
     'no-invalid-double-slash-comments': true,
 
     // Disallow unknown properties.
-    // https://stylelint.io/user-guide/rules/property-no-unknown/
+    // https://stylelint.io/user-guide/rules/property-no-unknown
     'property-no-unknown': true,
 
     // Disallow unknown pseudo-class selectors.
@@ -98,10 +102,6 @@ module.exports = {
     // Disallow unknown type selectors.
     // https://stylelint.io/user-guide/rules/selector-type-no-unknown
     'selector-type-no-unknown': true,
-
-    // Disallow redundant values in shorthand properties.
-    // https://stylelint.io/user-guide/rules/shorthand-property-no-redundant-values
-    'shorthand-property-no-redundant-values': true,
 
     // Disallow (unescaped) newlines in strings.
     // https://stylelint.io/user-guide/rules/string-no-newline
