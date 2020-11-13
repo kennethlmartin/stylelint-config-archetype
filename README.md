@@ -1,9 +1,10 @@
 <div align="center">
   <a href="https://stylelint.io/">
-    <img src="https://i.ibb.co/Dkjp361/stylelint-logo-png-transparent.png" width="200" />
+    <img src="https://i.ibb.co/GpyKqnJ/stylelint-config-archetype.png" width="440" />
   </a>
-  <h3>Stylelint Config Archetype</h3>
 </div>
+
+<br />
 
 <div align="center">
 
