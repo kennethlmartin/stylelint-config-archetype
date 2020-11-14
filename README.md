@@ -29,7 +29,3 @@ module.exports = {
   extends: 'stylelint-config-archetype',
 };
 ```
-
-***
-
-[Changelog](https://github.com/kennethlmartin/stylelint-config-archetype/blob/master/CHANGELOG.md)
