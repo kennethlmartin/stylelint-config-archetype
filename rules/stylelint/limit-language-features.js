@@ -1,12 +1,10 @@
-'use strict';
-
 /**
  * Stylelint Rules - Limit Language Features
  * https://stylelint.io/user-guide/rules/#limit-language-features
  */
 
 module.exports = {
-  'rules': {
+  rules: {
     // Specify percentage or number notation for alpha-values (Autofixable).
     // https://stylelint.io/user-guide/rules/alpha-value-notation
     'alpha-value-notation': 'number',

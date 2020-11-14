@@ -1,17 +1,18 @@
-'use strict';
-
 /**
  * Stylelint Rules - Possible Errors
  * https://stylelint.io/user-guide/rules/#possible-errors
  */
 
 module.exports = {
-  'rules': {
+  rules: {
     // Disallow unknown at-rules.
     // https://stylelint.io/user-guide/rules/at-rule-no-unknown
-    'at-rule-no-unknown': [true, {
-      'ignoreAtRules': ['extend'],
-    }],
+    'at-rule-no-unknown': [
+      true,
+      {
+        ignoreAtRules: ['extend'],
+      },
+    ],
 
     // Disallow empty blocks.
     // https://stylelint.io/user-guide/rules/block-no-empty
@@ -27,9 +28,12 @@ module.exports = {
 
     // Disallow duplicate properties within declaration blocks.
     // https://stylelint.io/user-guide/rules/declaration-block-no-duplicate-properties
-    'declaration-block-no-duplicate-properties': [true, {
-      'ignore': ['consecutive-duplicates-with-different-values'],
-    }],
+    'declaration-block-no-duplicate-properties': [
+      true,
+      {
+        ignore: ['consecutive-duplicates-with-different-values'],
+      },
+    ],
 
     // Disallow shorthand properties that override related longhand properties within declaration blocks.
     // https://stylelint.io/user-guide/rules/declaration-block-no-shorthand-property-overrides

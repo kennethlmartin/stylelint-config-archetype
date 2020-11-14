@@ -1,21 +1,19 @@
-'use strict';
-
 /**
  * Stylelint Rules - Stylistic Issues
  * https://stylelint.io/user-guide/rules/#stylistic-issues
  */
 
 module.exports = {
-  'rules': {
+  rules: {
     // Require or disallow an empty line before at-rules (Autofixable).
     // https://stylelint.io/user-guide/rules/at-rule-empty-line-before
-    'at-rule-empty-line-before': ['always', {
-      'except': [
-        'blockless-after-same-name-blockless',
-        'first-nested',
-      ],
-      'ignore': ['after-comment'],
-    }],
+    'at-rule-empty-line-before': [
+      'always',
+      {
+        except: ['blockless-after-same-name-blockless', 'first-nested'],
+        ignore: ['after-comment'],
+      },
+    ],
 
     // Specify lowercase or uppercase for at-rules names (Autofixable).
     // https://stylelint.io/user-guide/rules/at-rule-name-case
@@ -83,10 +81,13 @@ module.exports = {
 
     // Require or disallow an empty line before comments (Autofixable).
     // https://stylelint.io/user-guide/rules/comment-empty-line-before
-    'comment-empty-line-before': ['always', {
-      'except': ['first-nested'],
-      'ignore': ['stylelint-commands'],
-    }],
+    'comment-empty-line-before': [
+      'always',
+      {
+        except: ['first-nested'],
+        ignore: ['stylelint-commands'],
+      },
+    ],
 
     // Require or disallow whitespace on the inside of comment markers.
     // https://stylelint.io/user-guide/rules/comment-whitespace-inside
@@ -94,16 +95,13 @@ module.exports = {
 
     // Require or disallow an empty line before custom properties (Autofixable).
     // https://stylelint.io/user-guide/rules/custom-property-empty-line-before
-    'custom-property-empty-line-before': ['always', {
-      'except': [
-        'after-custom-property',
-        'first-nested',
-      ],
-      'ignore': [
-        'after-comment',
-        'inside-single-line-block',
-      ],
-    }],
+    'custom-property-empty-line-before': [
+      'always',
+      {
+        except: ['after-custom-property', 'first-nested'],
+        ignore: ['after-comment', 'inside-single-line-block'],
+      },
+    ],
 
     // Require a single space or disallow whitespace after the bang of declarations.
     // https://stylelint.io/user-guide/rules/declaration-bang-space-after
@@ -275,10 +273,13 @@ module.exports = {
 
     // Require or disallow an empty line before rules (Autofixable).
     // https://stylelint.io/user-guide/rules/rule-empty-line-before
-    'rule-empty-line-before': ['always-multi-line', {
-      'except': ['first-nested'],
-      'ignore': ['after-comment'],
-    }],
+    'rule-empty-line-before': [
+      'always-multi-line',
+      {
+        except: ['first-nested'],
+        ignore: ['after-comment'],
+      },
+    ],
 
     // Require a single space or disallow whitespace on the inside of the brackets within attribute selectors.
     // https://stylelint.io/user-guide/rules/selector-attribute-brackets-space-

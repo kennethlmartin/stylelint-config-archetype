@@ -1,22 +1,14 @@
-'use strict';
-
 /**
  * Plugin Order
  * https://github.com/hudochenkov/stylelint-order
  */
 
 module.exports = {
-  'plugins': [
-    'stylelint-order',
-  ],
-  'rules': {
+  plugins: ['stylelint-order'],
+  rules: {
     // Specify the order of content within declaration blocks.
     // https://github.com/hudochenkov/stylelint-order/blob/master/rules/order/README.md
-    'order/order': [
-      'custom-properties',
-      'declarations',
-      'rules',
-    ],
+    'order/order': ['custom-properties', 'declarations', 'rules'],
 
     // Specify the alphabetical order of properties within declaration blocks.
     // https://github.com/hudochenkov/stylelint-order/blob/master/rules/properties-alphabetical-order/README.md

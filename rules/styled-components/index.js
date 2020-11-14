@@ -1,7 +1,5 @@
-'use strict';
-
 module.exports = {
-  'rules': {
+  rules: {
     'block-closing-brace-newline-before': null,
     'block-closing-brace-space-before': null,
     'block-opening-brace-newline-after': null,

@@ -1,7 +1,5 @@
-'use strict';
-
 module.exports = {
-  'extends': [
+  extends: [
     './limit-language-features',
     './possible-errors',
     './stylistic-issues',

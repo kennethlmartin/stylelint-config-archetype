@@ -1,16 +1,11 @@
 module.exports = {
-  'env': {
-    'node': true,
+  env: {
+    node: true,
   },
-  'extends': [
+  extends: [
     'archetype/rules/eslint/best-practices.js',
     'archetype/rules/eslint/errors.js',
     'archetype/rules/eslint/style.js',
     'archetype/rules/eslint/variables.js',
   ],
-  'rules': {
-    // Require quotes around object literal property names
-    // http://eslint.org/docs/rules/quote-props
-    'quote-props': ['error', 'always'],
-  },
 };
