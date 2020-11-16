@@ -5,14 +5,8 @@
 </div>
 
 <br />
-
-<div align="center">
-
-  [![npm](https://img.shields.io/npm/v/stylelint-config-archetype.svg?style=for-the-badge)](https://www.npmjs.com/package/stylelint-config-archetype)
-  [![David](https://img.shields.io/david/kennethlmartin/stylelint-config-archetype.svg?style=for-the-badge)](https://david-dm.org/kennethlmartin/stylelint-config-archetype)
-</div>
-
-***
+<br />
+<br />
 
 ## Installation
 
@@ -29,3 +23,7 @@ module.exports = {
   extends: 'stylelint-config-archetype',
 };
 ```
+
+### Additional Rules
+
+- `stylelint-config-archetype/rules/styled-components`
