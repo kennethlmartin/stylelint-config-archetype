@@ -37,6 +37,10 @@ module.exports = {
     // https://stylelint.io/user-guide/rules/color-no-hex/
     'color-no-hex': null,
 
+    // Specify a pattern for comments.
+    // https://stylelint.io/user-guide/rules/comment-pattern/
+    'comment-pattern': null,
+
     // Specify a list of disallowed words within comments.
     // https://stylelint.io/user-guide/rules/comment-word-disallowed-list/
     'comment-word-disallowed-list': null,
@@ -152,6 +156,10 @@ module.exports = {
     // Disallow vendor prefixes for properties.
     // https://stylelint.io/user-guide/rules/property-no-vendor-prefix/
     'property-no-vendor-prefix': true,
+
+    // Specify a list of disallowed attribute names.
+    // https://stylelint.io/user-guide/rules/selector-attribute-name-disallowed-list/
+    'selector-attribute-name-disallowed-list': null,
 
     // Specify a list of allowed attribute operators.
     // https://stylelint.io/user-guide/rules/selector-attribute-operator-allowed-list/
