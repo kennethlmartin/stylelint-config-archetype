@@ -21,10 +21,13 @@
     "styleguide"
   ],
   "scripts": {
+    "clean": "npm-run-all -s clean:cache clean:node_modules",
+    "clean:cache": "rimraf ./.*cache",
+    "clean:node_modules": "rimraf ./node_modules",
+    "lint": "npm-run-all lint:* -p",
     "lint:eslint": "eslint . --cache",
     "lint:prettier": "prettier --check './**/*.js'",
-    "release": "semantic-release",
-    "test:lint": "npm-run-all lint:* -p"
+    "release": "semantic-release"
   },
   "devDependencies": {
     "eslint-config-archetype": "6.0.0",
