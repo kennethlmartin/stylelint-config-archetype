@@ -20,6 +20,9 @@
     "css",
     "styleguide"
   ],
+  "engines": {
+    "node": ">=10.13.0"
+  },
   "scripts": {
     "clean": "npm-run-all -s clean:cache clean:node_modules",
     "clean:cache": "rimraf ./.*cache",
@@ -36,7 +39,7 @@
     "semantic-release": "18.0.0"
   },
   "dependencies": {
-    "stylelint": "13.8.0",
+    "stylelint": "13.13.1",
     "stylelint-order": "4.1.0"
   }
 }
