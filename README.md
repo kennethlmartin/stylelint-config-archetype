@@ -1,11 +1,11 @@
+<br />
+
 <div align="center">
   <a href="https://stylelint.io/">
-    <img src="https://i.ibb.co/GpyKqnJ/stylelint-config-archetype.png" width="440" />
+    <img src="https://i.ibb.co/VBnn16P/stylelint-config-archetype.png" width="440" />
   </a>
 </div>
 
-<br />
-<br />
 <br />
 
 ## Installation
