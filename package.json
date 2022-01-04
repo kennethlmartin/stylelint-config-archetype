@@ -39,7 +39,7 @@
     "semantic-release": "18.0.1"
   },
   "dependencies": {
-    "stylelint": "13.13.1",
+    "stylelint": "14.2.0",
     "stylelint-order": "4.1.0"
   }
 }
