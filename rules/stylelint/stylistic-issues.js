@@ -1,6 +1,6 @@
 /**
  * Stylelint Rules - Stylistic Issues
- * https://stylelint.io/user-guide/rules/#stylistic-issues
+ * @see https://stylelint.io/user-guide/rules/list#stylistic-issues
  */
 
 module.exports = {

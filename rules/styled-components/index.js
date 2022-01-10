@@ -1,3 +1,7 @@
+/**
+ * Styled Component Rules
+ */
+
 module.exports = {
   rules: {
     'block-closing-brace-newline-before': null,
