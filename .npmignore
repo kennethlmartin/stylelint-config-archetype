@@ -1,9 +1,10 @@
-*.md
-.*cache
-.*rc.js
 .editorconfig
 .eslintignore
 .gitignore
+.npmrc
+.nvmrc
+.*cache
+.*rc.js
 .github/
 .vscode/
 node_modules/
