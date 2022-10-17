@@ -40,7 +40,7 @@
   },
   "dependencies": {
     "@stylelint/postcss-css-in-js": "0.37.2",
-    "stylelint": "14.2.0",
+    "stylelint": "14.14.0",
     "stylelint-order": "5.0.0"
   }
 }
